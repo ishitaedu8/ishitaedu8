@@ -20,3 +20,4 @@
 - D1 (founder, 2026-11-17): MVP = Lead engine core — project intake + photos, SEO/GEO/AEO landing page per project, lead form + site-visit booking, scored lead pipeline, private broker accounts. Premium modules deferred to later rounds.
 - D2: Product name = VisitLoop.
 - D3: User model = Agency mode first (founder operates all builder workspaces; each builder client gets view-only access to their own workspace). Data model is workspace-per-builder with team members so "owner + sales team" self-serve can be switched on later without rebuild. Rationale: done-for-you retainer (setup + monthly) produces cash earlier than low-ticket SaaS.
+- D4: Lead alerts = instant email to operator + builder (edge function via a free-tier transactional email service) and a one-tap "Reply on WhatsApp" wa.me button with a prefilled message per lead. No WhatsApp Business API in v1.
