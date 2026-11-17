@@ -2,7 +2,7 @@
 
 **Project:** Real-estate demand SaaS "VisitLoop" — rebuild of the Propilot concept on Apper.io
 **Feature slug:** realestate-demand-saas
-**Phase:** 0 — Brainstorming (in progress)
+**Phase:** Planning Complete → Phase 1 implementation (Apper)
 
 ## Context gathered
 - Reference app tested: Propilot on Arcada (see PROPILOT_QA_REPORT.md). Concept to reproduce, gaps to avoid.
