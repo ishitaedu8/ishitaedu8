@@ -1,6 +1,6 @@
 # Status
 
-**Project:** Real-estate demand SaaS (new name TBD) — rebuild of the Propilot concept on Apper.io
+**Project:** Real-estate demand SaaS "VisitLoop" — rebuild of the Propilot concept on Apper.io
 **Feature slug:** realestate-demand-saas
 **Phase:** 0 — Brainstorming (in progress)
 
@@ -18,3 +18,4 @@
 
 ## Decisions so far
 - D1 (founder, 2026-11-17): MVP = Lead engine core — project intake + photos, SEO/GEO/AEO landing page per project, lead form + site-visit booking, scored lead pipeline, private broker accounts. Premium modules deferred to later rounds.
+- D2: Product name = VisitLoop.
