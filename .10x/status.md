@@ -15,3 +15,6 @@
 2. Product name
 3. AI provider for agents / copy (key needed?)
 4. WhatsApp + email sending route
+
+## Decisions so far
+- D1 (founder, 2026-11-17): MVP = Lead engine core — project intake + photos, SEO/GEO/AEO landing page per project, lead form + site-visit booking, scored lead pipeline, private broker accounts. Premium modules deferred to later rounds.
