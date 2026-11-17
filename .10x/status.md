@@ -27,3 +27,4 @@
   - The AI writer composes copy ONLY from the founder's answers. Hard rules: add no topic/fact that was not provided; omit no fact that was provided. Enforced in code by a coverage check (every answer appears) and a no-new-facts check before preview.
   - Builder offers several original 3D-style design themes (depth hero, perspective gallery, tilt cards) inspired by — not copied from — promptbase.shop's 3D work section; mobile + reduced-motion fallbacks.
   - Preview is mandatory before publish; publish only on explicit approval.
+- D6: No external AI provider in v1 (founder wants API-less). Copy is produced by a deterministic built-in writer engine (rule-based templates with multiple phrasing variants per section) that can only use intake answers. Labelled honestly as "built-in writer", not AI. Pluggable writer interface so an LLM (e.g. Claude API) can be added later behind the same fact-lock checks.
