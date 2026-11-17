@@ -1,0 +1,4 @@
+# SDE — VisitLoop Phase 1 (built 2026-11-17)
+Apper project 07f1f17d26ac407d95edbc5c5c2e31fd · preview https://preview--visitloop-flex-frame.apper.so (mock data)
+Built: theme, split-pane shell, public 3D landing (/), dashboard, Clients CRUD, Projects (list, new dialog, detail, 8-section builder with Changes panel + live-snapshot diff + coverage/no-new-facts checks + preview + publish/republish/pause), unit types + slots managers, public /p/:slug (3 themes, SEO meta, JSON-LD, ?src attribution, validated booking), Leads (DnD board + list, scoring, stage WhatsApp scripts, edit/delete), Site visits (list/book/edit/mark/delete, slot seat sync).
+Tech debt: public writes go straight to tables (anon insert policy) — move to a requireAuthentication:false edge function with server-side validation, duplicate merge and rate limits after connect_database. Seat counts are reconciled by staff-side sync, not atomically. Login page shows platform "Sign up" link.

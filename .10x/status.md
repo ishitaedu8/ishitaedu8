@@ -2,7 +2,7 @@
 
 **Project:** Real-estate demand SaaS "VisitLoop" — rebuild of the Propilot concept on Apper.io
 **Feature slug:** realestate-demand-saas
-**Phase:** Planning Complete → Phase 1 implementation (Apper)
+**Phase:** Phase 1 built + browser-tested (Apper, mock data). Next: Phase 2
 
 ## Context gathered
 - Reference app tested: Propilot on Arcada (see PROPILOT_QA_REPORT.md). Concept to reproduce, gaps to avoid.
@@ -28,3 +28,4 @@
   - Builder offers several original 3D-style design themes (depth hero, perspective gallery, tilt cards) inspired by — not copied from — promptbase.shop's 3D work section; mobile + reduced-motion fallbacks.
   - Preview is mandatory before publish; publish only on explicit approval.
 - D6: No external AI provider in v1 (founder wants API-less). Copy is produced by a deterministic built-in writer engine (rule-based templates with multiple phrasing variants per section) that can only use intake answers. Labelled honestly as "built-in writer", not AI. Pluggable writer interface so an LLM (e.g. Claude API) can be added later behind the same fact-lock checks.
+- D7 (founder, mid-build): 1-day free trial for 1 project, then paid subscription via GPay/UPI, card and PayPal. Requires payment providers (e.g. Razorpay for UPI/cards, PayPal) → edge functions + secrets. Scheduled with Phase 2.
